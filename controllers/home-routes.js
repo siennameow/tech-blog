@@ -26,9 +26,6 @@ router.get("/", (req, res) => {
   })
     .then((postData) => {
       const posts = postData.map((post) => post.get({ plain: true }));
-      console.log("------------------------------------------");
-      console.log(posts);
-      console.log("------------------------------------------");
       res.render("homepage", { posts, loggedIn: req.session.loggedIn });
     })
     .catch((err) => {

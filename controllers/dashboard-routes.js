@@ -35,7 +35,7 @@ router.get("/", withAuth, (req, res) => {
     });
 });
 
-// GET post by id allows loggedin user to see the sepecific post content
+// GET post by id allows loggedin user to see the sepecific post content and direct to edit page
 router.get("/edit/:id", withAuth, (req, res) => {
   Post.findOne({
     where: {
