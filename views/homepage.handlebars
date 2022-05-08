@@ -1,9 +1,5 @@
-<div class="card mb-5">
-    <div class="card-header bg-secondary">
-        <h4 class="card-title"><a class="text-info" href="/post/id">Blog title: I love my cat</a></h4>
-        <h6 class="card-subtitle mb-2 text-light">Posted by "sienna" on "today 12:00"</h6>
-    </div>
-    <div class="card-body">
-        <p class="card-text">Content: My cat is a princess. I love her!</p>
-    </div>
-</div>
+<article class="post">
+    {{#each posts as |post| }}
+        {{> homepage-detail post}}
+    {{/each}}
+</article>
