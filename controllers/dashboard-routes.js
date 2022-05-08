@@ -71,7 +71,7 @@ router.get("/edit/:id", withAuth, (req, res) => {
     });
 });
 
-//GET /new render add-post page when user want to add a new post
+//GET '/new' render add-post page when user want to add a new post
 router.get("/new", (req, res) => {
   res.render("add-post");
 });
