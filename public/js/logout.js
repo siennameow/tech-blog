@@ -3,7 +3,7 @@ async function logout() {
     method: "post",
     headers: { "Content-Type": "application/json" },
   });
-
+// If successful, redirect the browser to the main page
   if (response.ok) {
     document.location.replace("/");
   } else {

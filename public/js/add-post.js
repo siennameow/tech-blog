@@ -16,7 +16,7 @@ async function newFormHandler(event) {
         "Content-Type": "application/json",
       },
     });
-
+// If successful, redirect the browser to the dashboard page
     if (response.ok) {
       document.location.replace("/dashboard");
     } else {
