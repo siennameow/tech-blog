@@ -1,4 +1,4 @@
-// function to add-post form
+// function to add-post
 async function newFormHandler(event) {
   event.preventDefault();
 
