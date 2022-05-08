@@ -8,9 +8,9 @@ const postData = [
     user_id: 1,
   },
   {
-    title: "Mirror Mirror debugging",
+    title: "Sometimes you have to fail to succeed",
     content:
-      "Just like Rubber Duck Debugging, Mirror Mirror Debugging is a method of debugging code by articulating a problem in spoken or written natural language. Many programmers have had the experience of explaining a problem to someone else, possibly even to someone who knows nothing about programming, and then hitting upon the solution in the process of explaining the problem. In describing what the code is supposed to do and observing what it actually does, any incongruity between these two becomes apparent.",
+      "Sometimes you try with everything you've got and you still fail. But look at the bright side, you're in good company; most of us try and fail a whole bunch before we succeed. But try hard enough and eventually you'll get there. 'The Empire Strikes Back' is all about failure. Luke fails, Han and Leia fail, even the droids fail. The Rebel Alliance is nearly wiped out. But you know what? If they hadn't failed at first they wouldn't have been able to rally and succeed the next time around. And then we'd have no epic final battle on Endor, no confrontation with Emperor Palpatine, and no Ewoks (I didn't say it was all positive).",
     user_id: 2,
   },
   {
@@ -20,11 +20,17 @@ const postData = [
     user_id: 3,
   },
   {
-    title: "Preventing developer Burnout",
+    title: "Take breaks",
     content:
-      "Keep things fresh at work. This way, you can hold on to your motivation and drive. Don’t despair if you have a monotonous coding job that keeps you using the same technologies repeatedly. There are several things you can do. You could try talking to your superior and maybe switch projects or take on different responsibilities. If this is not an option, you can do coding projects that feed your motivation in your free time (e.g., try a new programming language, learn new tools, build an open-source project, and so on). Ultimately, you should consider changing jobs if this is something you can do.",
+      "Work/life balance is crucial. Americans don't take enough time off, especially those Americans working in the tech sector. Maybe if Anakin had taken a few days off to go surfing, or pod racing or whatever, he wouldn't be so cranky and thus less likely to turn to the dark side. Don't succumb to the dark side, take some time off. Your team, your family and your work will all be happier for it.",
     user_id: 4,
   },
+  {
+    title: "Don't get distracted",
+    content:
+      "I'd like to think that if only Anakin had been a little more focused on, say, the immense evil about to spread across the galaxy, and a little less on his love life, a lot of problems could have been avoided. Heck, maybe if Anakin paid attention to the growing evil within himself, a lot of problems could've been avoided. What I'm saying is that Anakin wasn't very focused on the things that matter. You should focus on the things that matter. Beware the dark side of the Force, that clouds your judgement.",
+    user_id: 5,
+  }
 ];
 
 const seedPosts = () => Post.bulkCreate(postData);
