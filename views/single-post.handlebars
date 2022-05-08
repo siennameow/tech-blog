@@ -1,3 +1,6 @@
+{{> post-info post}}
+
+{{#if loggedIn}}
 <div class="card">
     <h3 class="card-header"></h3>
     <form class="card-body comment-form" id="comment-form">
@@ -8,16 +11,10 @@
         <button type="submit" class="btn">Submit</button>
     </form>
 </div>
-<div class="comments">
-    <div class="card">
-        <h3 class="card-header"></h3>
-        <section class="comment card-body">
-            <div class="text">
-                Previrous Comments
-            </div>
-            <div class="meta">
-                -By Sienna, on 12:00 today
-            </div>
-        </section>
-    </div>
-</div>
+{{/if}}
+
+{{> comment post.comments}}
+
+{{#if loggedIn}}
+<script src="/js/comment.js"></script>
+{{/if}}
