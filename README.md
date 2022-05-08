@@ -36,17 +36,17 @@ Login Page
 Logged in user feature:
 | Dashboard | comment post|
 |-----------|-----------|
-| ![Screen Shot 2022-05-08 at 3 41 24 PM](https://user-images.githubusercontent.com/101283174/167318785-03358eac-3709-4a77-8e16-d1f0111a2822.png)|![Screen Shot 2022-05-08 at 3 42 34 PM](https://user-images.githubusercontent.com/101283174/167318814-66b721cb-c6a6-43f8-9439-e3e804e05992.png) |
+| ![Screen Shot 2022-05-08 at 3 41 24 PM](https://user-images.githubusercontent.com/101283174/167318785-03358eac-3709-4a77-8e16-d1f0111a2822.png)|![Screen Shot 2022-05-08 at 3 43 28 PM](https://user-images.githubusercontent.com/101283174/167319229-d071e25c-08e9-4ce9-a7d0-2fa83aee510c.png)|
 
 | add post | edit/delete post|
 |-----------|-----------|
-| ![Screen Shot 2022-05-08 at 3 43 07 PM](https://user-images.githubusercontent.com/101283174/167318851-f3da03ab-702d-4e38-8ed9-8932e4a3f0ce.png)| ![Screen Shot 2022-05-08 at 3 43 28 PM](https://user-images.githubusercontent.com/101283174/167318860-4380ce5e-0d99-4f29-afca-766502fab1ae.png)|
+| ![Screen Shot 2022-05-08 at 3 42 34 PM](https://user-images.githubusercontent.com/101283174/167319220-a6a07ab1-cf4c-4b2c-808e-7d774fadb804.png)| ![Screen Shot 2022-05-08 at 3 43 07 PM](https://user-images.githubusercontent.com/101283174/167319221-59b3a9e0-ee8c-4c84-b270-1673dea3b53a.png)|
 ## Features 📋
 
-⚡️ User-Friendly Interface
-⚡️ Data Collection and Caching
-⚡️ Security
-⚡️ Social Integration
+⚡️ User-Friendly Interface\
+⚡️ Data Collection and Caching\
+⚡️ Security\
+⚡️ Social Integration\
 ⚡️ Simplicity
 
 ## Code Snippet 💻
