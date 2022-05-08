@@ -1,6 +1,6 @@
 # Techship Blog
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/siennameow/employee-management-system/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/siennameow/tech-blog/blob/main/LICENSE)
 
 ## Description 📝 
 
@@ -27,20 +27,17 @@ The web application is hosted on Heroku. Link to deployed website: https://techs
 Demo GIF
 
 
-<img src="/assets/demo.gif">
-
-
 Application Preview:
 
 General users feature:
 | Homepage  |   Login   |   Signup   |
 |-----------|-----------|-----------|
-| | | |
+| ![Screen Shot 2022-05-08 at 3 34 49 PM](https://user-images.githubusercontent.com/101283174/167318696-ab18a764-15a9-4db9-b362-5e0d42f51737.png)| ![Screen Shot 2022-05-08 at 3 35 02 PM](https://user-images.githubusercontent.com/101283174/167318734-548a3850-c9a9-48d5-83b9-595e189c85ef.png)| ![Screen Shot 2022-05-08 at 3 35 11 PM](https://user-images.githubusercontent.com/101283174/167318736-49b77369-a521-4675-87e8-9931227beb01.png)|
 
 Logged in user feature:
-| Dashboard | add post | edit/delete post |
-|-----------|-----------|-----------|
-| | | |
+| Dashboard | add post | edit/delete post| comment post
+|-----------|-----------|-----------|-----------|
+| ![Screen Shot 2022-05-08 at 3 41 24 PM](https://user-images.githubusercontent.com/101283174/167318785-03358eac-3709-4a77-8e16-d1f0111a2822.png)|![Screen Shot 2022-05-08 at 3 42 34 PM](https://user-images.githubusercontent.com/101283174/167318814-66b721cb-c6a6-43f8-9439-e3e804e05992.png) | ![Screen Shot 2022-05-08 at 3 43 07 PM](https://user-images.githubusercontent.com/101283174/167318851-f3da03ab-702d-4e38-8ed9-8932e4a3f0ce.png)| ![Screen Shot 2022-05-08 at 3 43 28 PM](https://user-images.githubusercontent.com/101283174/167318860-4380ce5e-0d99-4f29-afca-766502fab1ae.png)|
 
 
 ## Features 📋
@@ -151,7 +148,7 @@ The web application is deployed on Heroku and feel free to explore: https://tech
 * [Handlebars.js](https://handlebarsjs.com/)for templating language
 
 ## License 📜
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/siennameow/employee-management-system/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/siennameow/tech-blog/blob/main/LICENSE)
 MIT License
 
 Copyright (c) 2022 Sienna Li
