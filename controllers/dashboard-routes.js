@@ -10,16 +10,19 @@ router.get("/", withAuth, (req, res) => {
       user_id: req.session.user_id,
     },
     attributes: ["id", "title", "content", "created_at"],
-    include: [
-      {
-        model: Comment,
-        attributes: ["id", "comment_text", "post_id", "user_id", "created_at"],
-      },
-      {
-        model: User,
-        attributes: ["username"],
-      },
-    ],
+    include: [{
+      model: Comment,
+      attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
+      include: {
+          model: User,
+          attributes: ['username']
+      }
+  },
+  {
+      model: User,
+      attributes: ['username']
+  }
+]
   })
     .then((postData) => {
       const posts = postData.map((post) => post.get({ plain: true }));
@@ -38,16 +41,19 @@ router.get("/edit/:id", withAuth, (req, res) => {
       id: req.params.id,
     },
     attributes: ["id", "title", "content", "created_at"],
-    include: [
-      {
-        model: User,
-        attributes: ["username"],
-      },
-      {
-        model: Comment,
-        attributes: ["id", "comment_text", "post_id", "user_id", "created_at"],
-      },
-    ],
+    include: [{
+      model: User,
+      attributes: ['username']
+  },
+  {
+      model: Comment,
+      attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
+      include: {
+          model: User,
+          attributes: ['username']
+      }
+  }
+]
   })
     .then((postData) => {
       if (!postData) {

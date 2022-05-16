@@ -9,16 +9,19 @@ router.get("/", (req, res) => {
   Post.findAll({
     attributes: ["id", "title", "content", "created_at"],
     order: [["created_at", "DESC"]],
-    include: [
-      {
-        model: User,
-        attributes: ["username"],
-      },
-      {
-        model: Comment,
-        attributes: ["id", "comment_text", "post_id", "user_id", "created_at"],
-      },
-    ],
+    include: [{
+      model: User,
+      attributes: ['username']
+  },
+  {
+      model: Comment,
+      attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
+      include: {
+          model: User,
+          attributes: ['username']
+      }
+  }
+]
   })
     .then((postData) => res.json(postData))
     .catch((err) => {
@@ -34,16 +37,19 @@ router.get("/:id", (req, res) => {
       id: req.params.id,
     },
     attributes: ["id", "content", "title", "created_at"],
-    include: [
-      {
-        model: User,
-        attributes: ["username"],
-      },
-      {
-        model: Comment,
-        attributes: ["id", "comment_text", "post_id", "user_id", "created_at"],
-      },
-    ],
+    include: [{
+      model: User,
+      attributes: ['username']
+  },
+  {
+      model: Comment,
+      attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
+      include: {
+          model: User,
+          attributes: ['username']
+      }
+  }
+]
   })
     .then((postData) => {
       if (!postData) {
